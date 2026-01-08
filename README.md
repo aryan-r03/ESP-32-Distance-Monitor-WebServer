@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=ESP32+Distance+Monitor;Real-Time+Web+Server;IoT+%2B+Ultrasonic+Sensing;Beautiful+Web+Interface" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=639ccf&center=true&vCenter=true&width=700&lines=ESP32+Distance+Monitor;Real-Time+Web+Server;IoT+%2B+Ultrasonic+Sensing;Beautiful+Web+Interface" alt="Typing SVG" />
 </h1>
 
 <p align="center">
