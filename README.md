@@ -1,15 +1,33 @@
-# 🛡️ ESP32 Distance Monitor Web Server
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=ESP32+Distance+Monitor;Real-Time+Web+Server;IoT+%2B+Ultrasonic+Sensing;Beautiful+Web+Interface" alt="Typing SVG" />
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" alt="Arduino"/>
+  <img src="https://img.shields.io/badge/WiFi-Enabled-0078D4?style=for-the-badge&logo=wifi&logoColor=white" alt="WiFi"/>
+  <img src="https://img.shields.io/badge/WebServer-Real--Time-FF6B6B?style=for-the-badge" alt="WebServer"/>
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="License"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/IoT-Connected-blue?style=flat-square" alt="IoT"/>
+  <img src="https://img.shields.io/badge/REST-API-orange?style=flat-square" alt="REST API"/>
+  <img src="https://img.shields.io/badge/Responsive-Design-green?style=flat-square" alt="Responsive"/>
+  <img src="https://img.shields.io/badge/Real--Time-Updates-red?style=flat-square" alt="Real-Time"/>
+</p>
+
+---
 
 <div align="center">
 
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-![WiFi](https://img.shields.io/badge/WiFi-Enabled-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+### 🌐 Real-Time Ultrasonic Distance Monitoring with Beautiful Web Interface
 
-**Real-time ultrasonic distance monitoring with a beautiful web interface**
+> **Production-grade IoT project combining ESP32, ultrasonic sensing, and modern web technologies for real-time distance monitoring accessible from any device.**
 
-[Features](#-features) • [Demo](#-demo) • [Quick Start](#-quick-start) • [Contributing](#-contributing)
+**⚡ Perfect for IoT learning, smart home projects, and proximity detection systems**
+
+[Features](#-features) • [Demo](#-demo) • [Quick Start](#-quick-start) • [API](#-api-reference) • [Troubleshooting](#-troubleshooting)
 
 </div>
 
@@ -17,128 +35,340 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Demo](#-demo)
-- [Hardware Requirements](#-hardware-requirements)
-- [Wiring Diagram](#-wiring-diagram)
-- [Quick Start](#-quick-start)
-- [Configuration](#%EF%B8%8F-configuration)
-- [How It Works](#-how-it-works)
-- [API Reference](#-api-reference)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [🌟 Project Overview](#-project-overview)
+- [✨ Key Features](#-key-features)
+- [🎬 Demo & Preview](#-demo--preview)
+- [📦 Hardware Requirements](#-hardware-requirements)
+- [🔌 Circuit Connections](#-circuit-connections)
+- [💻 Software Setup](#-software-setup)
+- [🚀 Quick Start Guide](#-quick-start-guide)
+- [⚙️ Configuration](#%EF%B8%8F-configuration)
+- [🧠 System Architecture](#-system-architecture)
+- [📡 API Reference](#-api-reference)
+- [🎨 Customization](#-customization)
+- [🐛 Troubleshooting](#-troubleshooting)
+- [📊 Technical Specifications](#-technical-specifications)
+- [🤝 Contributing](#-contributing)
+- [📞 Connect](#-connect)
 
 ---
 
-## 🌟 Overview
+## 🌟 Project Overview
 
-ESP32 Distance Monitor is a real-time IoT project that uses an ultrasonic sensor (HC-SR04) to measure distances and displays the data through a sleek, responsive web interface. Perfect for learning IoT basics or building proximity detection systems!
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <img src="https://cdn-icons-png.flaticon.com/512/2942/2942813.png" width="80" height="80" alt="Sensor"/>
+        <br><b>IoT Sensing</b>
+        <br>HC-SR04 ultrasonic sensor
+        <br>Real-time measurements
+      </td>
+      <td align="center" width="25%">
+        <img src="https://cdn-icons-png.flaticon.com/512/1087/1087815.png" width="80" height="80" alt="Web"/>
+        <br><b>Web Interface</b>
+        <br>Responsive design
+        <br>Live data visualization
+      </td>
+      <td align="center" width="25%">
+        <img src="https://cdn-icons-png.flaticon.com/512/2165/2165004.png" width="80" height="80" alt="API"/>
+        <br><b>REST API</b>
+        <br>JSON endpoints
+        <br>Easy integration
+      </td>
+      <td align="center" width="25%">
+        <img src="https://cdn-icons-png.flaticon.com/512/2913/2913133.png" width="80" height="80" alt="WiFi"/>
+        <br><b>WiFi Connected</b>
+        <br>No cables needed
+        <br>Access anywhere
+      </td>
+    </tr>
+  </table>
+</div>
 
-### Why This Project?
+ESP32 Distance Monitor is a **comprehensive IoT project** that uses an ultrasonic sensor to measure distances and displays real-time data through a sleek, responsive web interface accessible from any device on your network.
 
-- 🎓 **Educational**: Great for learning ESP32, web servers, and sensors
-- 🚀 **Production-Ready**: Clean code with proper error handling
-- 🎨 **Beautiful UI**: Modern, responsive design with real-time updates
-- 🔧 **Hackable**: Easy to customize and extend
+### 🎯 Why This Project?
+
+<table>
+<tr>
+<td width="50%">
+
+**For Learning:**
+- 🎓 Perfect introduction to ESP32 development
+- 🌐 Learn web server implementation
+- 📡 Understand REST API design
+- 🔌 Master sensor integration
+- 📱 Explore responsive web design
+
+</td>
+<td width="50%">
+
+**For Building:**
+- 🚀 Production-ready code quality
+- 🎨 Modern, beautiful UI design
+- 🔧 Easy to customize and extend
+- 📊 Real-time data visualization
+- 💼 Portfolio-worthy project
+
+</td>
+</tr>
+</table>
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-<details open>
-<summary><b>🖥️ Web Interface</b></summary>
+<div align="center">
 
-- **Real-time distance display** with 200ms update rate
-- **Visual status indicators** (Safe, Warning, Alert)
-- **Interactive range bar** showing object position
-- **Connection status monitoring**
-- **Responsive design** works on desktop, tablet, and mobile
-- **Smooth animations** and transitions
+### Core Capabilities
 
-</details>
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Features</th>
+  </tr>
+  <tr>
+    <td><b>🖥️ Web Interface</b></td>
+    <td>
+      ✅ Real-time distance display (200ms updates)<br>
+      ✅ Visual status indicators (Safe/Warning/Alert)<br>
+      ✅ Interactive range bar visualization<br>
+      ✅ Connection status monitoring<br>
+      ✅ Fully responsive (desktop/tablet/mobile)<br>
+      ✅ Smooth animations and transitions
+    </td>
+  </tr>
+  <tr>
+    <td><b>🔌 Hardware</b></td>
+    <td>
+      ✅ HC-SR04 ultrasonic sensor support<br>
+      ✅ Configurable detection zone (1-100cm)<br>
+      ✅ High-precision measurements<br>
+      ✅ Flexible GPIO pin configuration<br>
+      ✅ Error filtering and validation<br>
+      ✅ 20 readings per second
+    </td>
+  </tr>
+  <tr>
+    <td><b>🌐 Network</b></td>
+    <td>
+      ✅ WiFi connectivity with auto-reconnect<br>
+      ✅ RESTful API with JSON responses<br>
+      ✅ CORS-friendly for external apps<br>
+      ✅ Low latency real-time updates<br>
+      ✅ Multi-device access<br>
+      ✅ Easy network configuration
+    </td>
+  </tr>
+  <tr>
+    <td><b>💻 Development</b></td>
+    <td>
+      ✅ Clean, well-documented code<br>
+      ✅ Modular architecture<br>
+      ✅ Arduino IDE compatible<br>
+      ✅ Easy customization<br>
+      ✅ Professional error handling<br>
+      ✅ Debug-friendly design
+    </td>
+  </tr>
+</table>
 
-<details>
-<summary><b>🔌 Hardware Integration</b></summary>
-
-- **HC-SR04 ultrasonic sensor** support
-- **Configurable detection zone** (1-100cm default)
-- **High-precision measurements** with error filtering
-- **GPIO pin flexibility** - easily change pins
-
-</details>
-
-<details>
-<summary><b>🌐 Network Features</b></summary>
-
-- **WiFi connectivity** with auto-reconnect
-- **REST API** for data access
-- **JSON responses** for easy integration
-- **CORS-friendly** for external applications
-- **Low latency** real-time updates
-
-</details>
+</div>
 
 ---
 
-## 🎬 Demo
+## 🎬 Demo & Preview
 
-### Web Interface
-The web interface provides three status levels:
+<div align="center">
 
-| Status | Distance Range | Appearance |
-|--------|---------------|------------|
-| ✅ **Safe** | > 40 cm or < 1 cm | Green background, calm |
-| ⚠️ **Warning** | 10-40 cm | Yellow background, cautious |
-| 🚨 **Alert** | 1-10 cm | Red background, pulsing animation |
+### Web Interface Behavior
 
-### Example Layout
+</div>
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+**✅ Safe Zone**
+<div align="center">
+<img src="https://img.shields.io/badge/Distance->_40cm-28a745?style=for-the-badge" alt="Safe"/>
+
+🟢 **Green background**
+<br>All clear status
+<br>Calm appearance
+<br>No alerts triggered
+
+</td>
+<td align="center" width="33%">
+
+**⚠️ Warning Zone**
+
+<img src="https://img.shields.io/badge/Distance-10--40cm-ffc107?style=for-the-badge" alt="Warning"/>
+
+🟡 **Yellow background**
+<br>Object approaching
+<br>Cautious state
+<br>Monitoring active
+
+</td>
+<td align="center" width="33%">
+
+**🚨 Alert Zone**
+
+<img src="https://img.shields.io/badge/Distance-1--10cm-dc3545?style=for-the-badge" alt="Alert"/>
+
+🔴 **Red background**
+<br>Object very close
+<br>Pulsing animation
+<br>Immediate attention
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### Interface Layout
+
 ```
-┌────────────────────────────────────┐
-│      🛡️ Distance Monitor           │
-│       ESP32 Live Feed              │
-│                                    │
-│    ┌──────────────────────────┐    │
-│    │    ✓ All Clear           │    │
-│    └──────────────────────────┘    │
-│                                    │
-│               25.3 cm              │
-│                                    │
-│   ├────────────●─────────────┤     │
-│   0cm      25cm          100cm     │
-│                                    │
-│   🟢 Connected to ESP32            │
-└────────────────────────────────────┘
+┌────────────────────────────────────────────────────┐
+ │              ESP32 Distance Monitor                │ 
+│             Real-Time Web Interface                │
+│                                                    │
+│    ┌──────────────────────────────────────────┐    │
+│    │         ✓ All Clear - Safe Zone          │    │
+│    └──────────────────────────────────────────┘    │
+│                                                    │
+│                  25.3 cm                           │
+│              ━━━━━━━━━━━━━━                        │
+│                                                    │
+│    ├────────────●───────────────────────────┤      │
+│    0cm         25cm                      100cm     │
+│                                                    │
+│          Connected | Last update: 0.2s ago         │
+└────────────────────────────────────────────────────┘
 ```
+
+### System Flow Diagram
+
+```
+┌─────────────┐         ┌──────────────┐         ┌────────────────┐
+│  HC-SR04    │  GPIO   │    ESP32     │  WiFi   │  Web Browser   │
+│  Ultrasonic │ ──────> │  Web Server  │ ──────> │  (Any Device)  │
+│   Sensor    │         │   Port 80    │         │   Dashboard    │
+└─────────────┘         └──────────────┘         └────────────────┘
+│                        │                          │
+             │ Ultrasonic pulses      │ Distance calculation     │ Live updates
+              │ 40 kHz signal          │ JSON API response        │ 200ms refresh
+                │ Echo detection         │ Web server handling      │ Visual feedback
+└────────────────────────┴──────────────────────────┘
+Continuous real-time monitoring loop
+```
+
+</div>
 
 ---
 
-## 🛠️ Hardware Requirements
+## 📦 Hardware Requirements
+
+<div align="center">
 
 ### Essential Components
 
-| Component | Quantity | Notes |
-|-----------|----------|-------|
-| **ESP32 Dev Board** | 1 | Any variant (ESP32-WROOM, NodeMCU-32S, etc.) |
-| **HC-SR04 Ultrasonic Sensor** | 1 | 4-pin ultrasonic distance sensor |
-| **Jumper Wires** | 4 | Male-to-female recommended |
-| **Breadboard** (optional) | 1 | For prototyping |
-| **USB Cable** | 1 | For programming and power |
+<table>
+  <tr>
+    <th>Component</th>
+    <th>Quantity</th>
+    <th>Specifications</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="20"/> <b>ESP32 Dev Board</b></td>
+    <td align="center">1</td>
+    <td>ESP32-WROOM, NodeMCU-32S, or similar</td>
+    <td>Main microcontroller with WiFi</td>
+  </tr>
+  <tr>
+    <td>🔊 <b>HC-SR04 Sensor</b></td>
+    <td align="center">1</td>
+    <td>4-pin ultrasonic, 40kHz, 2-400cm range</td>
+    <td>Distance measurement</td>
+  </tr>
+  <tr>
+    <td>🔗 <b>Jumper Wires</b></td>
+    <td align="center">4</td>
+    <td>Male-to-female recommended</td>
+    <td>Sensor connections</td>
+  </tr>
+  <tr>
+    <td>🍞 <b>Breadboard</b></td>
+    <td align="center">1</td>
+    <td>Half or full size (optional)</td>
+    <td>Prototyping and testing</td>
+  </tr>
+  <tr>
+    <td>🔌 <b>USB Cable</b></td>
+    <td align="center">1</td>
+    <td>Micro-USB or USB-C (board dependent)</td>
+    <td>Programming and power</td>
+  </tr>
+</table>
 
 ### Optional Components
-- 5V power supply (for standalone operation)
-- Enclosure/case for finished project
-- LED indicators for visual feedback
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/color/96/000000/power.png" width="60" height="60" alt="Power"/>
+      <br><b>5V Power Supply</b>
+      <br>For standalone operation
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/color/96/000000/box.png" width="60" height="60" alt="Enclosure"/>
+      <br><b>Project Enclosure</b>
+      <br>3D printed or commercial case
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/color/96/000000/led-diode.png" width="60" height="60" alt="LED"/>
+      <br><b>LED Indicators</b>
+      <br>Additional visual feedback
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/color/96/000000/motherboard.png" width="60" height="60" alt="OLED"/>
+      <br><b>OLED Display</b>
+      <br>Standalone local readout
+    </td>
+  </tr>
+</table>
+
+### Cost Estimate
+
+| Item | Approximate Cost |
+|------|-----------------|
+| ESP32 Board | $5-15 |
+| HC-SR04 Sensor | $2-5 |
+| Jumper Wires & Breadboard | $3-8 |
+| USB Cable | $2-5 |
+| **Total** | **$12-33** |
+
+</div>
 
 ---
 
-## 🔌 Wiring Diagram
+## 🔌 Circuit Connections
 
-<details open>
-<summary><b>Click to expand wiring details</b></summary>
+<div align="center">
 
-### Standard Connection
+### Pin Mapping & Wiring
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+**Standard Connection Diagram:**
 
 ```
 HC-SR04 Sensor          ESP32 Board
@@ -155,193 +385,616 @@ HC-SR04 Sensor          ESP32 Board
 └──────────────┘       └──────────────┘
 ```
 
-### Pin Configuration
+</td>
+<td width="50%">
 
-| HC-SR04 Pin | ESP32 Pin | Function |
-|-------------|-----------|----------|
-| VCC | 5V | Power supply |
-| TRIG | GPIO 18 | Trigger pulse output |
-| ECHO | GPIO 19 | Echo pulse input |
-| GND | GND | Ground |
+**Pin Configuration Table:**
 
-> ⚠️ **Important**: While HC-SR04 VCC needs 5V, the ECHO pin outputs 5V which is generally safe for ESP32's 5V-tolerant pins. If you want to be extra safe, use a voltage divider (1kΩ and 2kΩ resistors) on the ECHO pin.
+| HC-SR04 Pin | ESP32 Pin | Wire Color* | Function |
+|-------------|-----------|-------------|----------|
+| VCC | 5V | Red | Power (+) |
+| TRIG | GPIO 18 | Yellow | Trigger pulse |
+| ECHO | GPIO 19 | Blue | Echo response |
+| GND | GND | Black | Ground (-) |
 
-### Custom Pin Configuration
-You can use any GPIO pins! Just modify these lines in the code:
-```cpp
-const int trigPin = 18;    // Change to your TRIG pin
-const int echoPin = 19;    // Change to your ECHO pin
-```
+*Suggested colors for easy identification
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### ⚠️ Important Voltage Note
+
+</div>
+
+<details>
+<summary><b>Click to read about 5V tolerance and safety</b></summary>
+
+**HC-SR04 ECHO Pin Output:**
+- The HC-SR04 ECHO pin outputs **5V** logic levels
+- ESP32 GPIO pins are officially rated for **3.3V logic**
+- However, GPIO 18 and 19 are generally **5V tolerant**
+
+**Safety Options:**
+
+1. **Direct Connection** (Most Common)
+   - Connect ECHO directly to GPIO 19
+   - Works in 99% of cases with no issues
+   - Convenient for prototyping
+
+2. **Voltage Divider** (Safest)
+   ```
+   ECHO ──┬── 1kΩ ──┬── GPIO 19
+          │          │
+          └── 2kΩ ──┴── GND
+   ```
+   - Reduces 5V to 3.3V safely
+   - Recommended for long-term/production use
+
+3. **Logic Level Shifter**
+   - Use a bi-directional level shifter module
+   - Professional solution
+   - Adds extra components
+
+**Our Recommendation:** Direct connection works reliably for hobby projects and learning. Use voltage divider for permanent installations.
 
 </details>
+
+<div align="center">
+
+### Custom Pin Configuration
+
+</div>
+
+Want to use different GPIO pins? Simply modify these lines in the code:
+
+```cpp
+const int trigPin = 18;    // Change to your preferred TRIG pin
+const int echoPin = 19;    // Change to your preferred ECHO pin
+```
+
+**Recommended GPIO Pins for ESP32:**
+- **Avoid:** GPIO 0, 2, 12, 15 (used for boot strapping)
+- **Safe to use:** GPIO 4, 5, 13, 14, 16, 17, 18, 19, 21, 22, 23, 25-27, 32-33
 
 ---
 
-## 🚀 Quick Start
+## 💻 Software Setup
 
-### Step 1: Install Arduino IDE
+<div align="center">
 
-<details>
-<summary><b>Click for installation instructions</b></summary>
+### Development Environment
 
-1. Download Arduino IDE from [arduino.cc](https://www.arduino.cc/en/software)
-2. Install ESP32 board support:
-   - Open Arduino IDE
-   - Go to **File → Preferences**
-   - Add this URL to "Additional Board Manager URLs":
-     ```
-     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-     ```
-   - Go to **Tools → Board → Boards Manager**
-   - Search for "esp32" and install "esp32 by Espressif Systems"
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="80" height="80" alt="Arduino"/>
+      <br><b>Arduino IDE</b>
+      <br>Version 1.8.x or 2.x
+      <br><a href="https://www.arduino.cc/en/software">Download</a>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://cdn-icons-png.flaticon.com/512/2165/2165004.png" width="80" height="80" alt="ESP32"/>
+      <br><b>ESP32 Board Support</b>
+      <br>By Espressif Systems
+      <br>Version 2.x or later
+    </td>
+    <td align="center" width="33%">
+      <img src="https://cdn-icons-png.flaticon.com/512/2913/2913133.png" width="80" height="80" alt="USB"/>
+      <br><b>USB Drivers</b>
+      <br>CP210x or CH340
+      <br>Board dependent
+    </td>
+  </tr>
+</table>
+
+### Required Libraries
+
+</div>
+
+**Built-in Libraries** (No installation needed):
+- `WiFi.h` - ESP32 WiFi connectivity
+- `WebServer.h` - HTTP web server functionality
+
+All dependencies come with the ESP32 board package! 🎉
+
+---
+
+## 🚀 Quick Start Guide
+
+<div align="center">
+
+### 📥 Step 1: Install Arduino IDE & ESP32 Support
+
+</div>
+
+<details open>
+<summary><b>Click for detailed installation instructions</b></summary>
+
+**1. Download Arduino IDE:**
+- Visit [arduino.cc/software](https://www.arduino.cc/en/software)
+- Download appropriate version for your OS
+- Install with default settings
+
+**2. Add ESP32 Board Support:**
+- Open Arduino IDE
+- Go to **File** → **Preferences**
+- In "Additional Board Manager URLs", add:
+  ```
+  https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+  ```
+- Click **OK**
+- Go to **Tools** → **Board** → **Boards Manager**
+- Search for "**esp32**"
+- Install "**esp32 by Espressif Systems**" (latest version)
+- Wait for installation to complete
+
+**3. Install USB Drivers (if needed):**
+- **CP210x**: [Silicon Labs](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+- **CH340**: [Manufacturer site](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
+- **Identify your chip**: Look at the small chip near USB port on ESP32
 
 </details>
 
-### Step 2: Configure the Code
+<div align="center">
 
-1. **Clone or download** this repository
-2. **Open** `esp32_webserver.ino` in Arduino IDE
-3. **Modify WiFi credentials** (lines 6-7):
-   ```cpp
-   const char* ssid = "Your_WiFi_Name";
-   const char* password = "Your_WiFi_Password";
+### ⚙️ Step 2: Configure the Project
+
+</div>
+
+1. **Clone or Download** this repository:
+   ```bash
+   git clone https://github.com/your-username/esp32-distance-monitor.git
+   cd esp32-distance-monitor
    ```
-4. **Verify pin configuration** matches your wiring (lines 10-11)
 
-### Step 3: Upload
+2. **Open** `esp32_webserver.ino` in Arduino IDE
 
-1. **Connect** ESP32 to your computer via USB
-2. **Select board**: Tools → Board → ESP32 Arduino → (your ESP32 model)
-3. **Select port**: Tools → Port → (your COM port)
-4. **Upload**: Click the upload button (→)
-5. **Open Serial Monitor** (Ctrl+Shift+M) at 115200 baud
+3. **Configure WiFi Credentials** (lines 6-7):
+   ```cpp
+   const char* ssid = "Your_WiFi_Name";          // Replace with your WiFi name
+   const char* password = "Your_WiFi_Password";   // Replace with your WiFi password
+   ```
 
-### Step 4: Access the Web Interface
+4. **Verify Pin Configuration** (lines 10-11):
+   ```cpp
+   const int trigPin = 18;    // HC-SR04 TRIG pin
+   const int echoPin = 19;    // HC-SR04 ECHO pin
+   ```
 
-1. Wait for successful connection message in Serial Monitor
-2. Note the **IP address** displayed (e.g., `192.168.1.100`)
-3. Open your browser and navigate to: `http://YOUR_ESP32_IP`
-4. Enjoy real-time distance monitoring! 🎉
+5. **Optional: Adjust Detection Range** (lines 14-15):
+   ```cpp
+   const float MIN_DISTANCE = 1.0;    // Minimum detection (cm)
+   const float MAX_DISTANCE = 100.0;  // Maximum detection (cm)
+   ```
+
+<div align="center">
+
+### ⬆️ Step 3: Upload to ESP32
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+**Select Board:**
+1. Go to **Tools** → **Board**
+2. Select **ESP32 Arduino** → Your board model
+   - Common: **ESP32 Dev Module**
+   - Or: **NodeMCU-32S**, **DOIT ESP32 DEVKIT V1**
+
+**Select Port:**
+1. Go to **Tools** → **Port**
+2. Choose the COM/USB port
+   - Windows: `COM3`, `COM4`, etc.
+   - macOS: `/dev/cu.usbserial-*`
+   - Linux: `/dev/ttyUSB0`, `/dev/ttyACM0`
+
+</td>
+<td width="50%">
+
+**Upload Settings:**
+- **Upload Speed:** 921600 (or 115200 if issues)
+- **CPU Frequency:** 240MHz
+- **Flash Frequency:** 80MHz
+- **Flash Mode:** QIO
+- **Flash Size:** 4MB (or your board's size)
+- **Partition Scheme:** Default
+
+**Upload Process:**
+1. Click **Upload** button (→)
+2. Wait for "Connecting..."
+3. If stuck: Hold **BOOT** button on ESP32
+4. Wait for "Hard resetting via RTS pin..."
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 🔍 Step 4: Monitor Serial Output
+
+</div>
+
+1. Open **Serial Monitor**: `Tools` → `Serial Monitor` (or `Ctrl+Shift+M`)
+2. Set baud rate to **115200**
+3. Press **RST** button on ESP32
+
+**Expected Output:**
+```
+Connecting to WiFi: YourNetworkName
+.....
+WiFi connected successfully!
+IP Address: 192.168.1.100
+Web server started
+Distance: 25.3 cm
+Distance: 23.7 cm
+Distance: 21.4 cm
+```
+
+<div align="center">
+
+### 🌐 Step 5: Access Web Interface
+
+</div>
+
+1. Note the **IP address** from Serial Monitor (e.g., `192.168.1.100`)
+2. Open any web browser on your phone/computer
+3. Navigate to: `http://YOUR_ESP32_IP`
+   - Example: `http://192.168.1.100`
+4. **Success!** You should see the distance monitor dashboard 🎉
+
+<details>
+<summary><b>Can't access? Click for tips</b></summary>
+
+- ✅ Ensure device is on the **same WiFi network**
+- ✅ Try accessing from **multiple devices** (phone, laptop)
+- ✅ Check if ESP32 is still running (LED should be on)
+- ✅ Verify IP address in Serial Monitor
+- ✅ Try **http://192.168.x.x** (with exact IP)
+- ✅ Disable VPN if active
+- ✅ Check router firewall settings
+
+</details>
 
 ---
 
 ## ⚙️ Configuration
 
-### WiFi Settings
+<div align="center">
+
+### Essential Settings
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+**🌐 WiFi Configuration**
+
 ```cpp
-const char* ssid = "Your_WiFi_Name";        // Your WiFi network name
-const char* password = "Your_WiFi_Password"; // Your WiFi password
+// Network credentials
+const char* ssid = "YourWiFiName";
+const char* password = "YourPassword";
 ```
 
-### Sensor Pins
+**Tips:**
+- SSID is case-sensitive
+- Use 2.4GHz network (ESP32 doesn't support 5GHz)
+- Avoid special characters in SSID if possible
+- Password must match exactly
+
+</td>
+<td width="50%">
+
+**📡 Sensor Pin Assignment**
+
 ```cpp
-const int trigPin = 18;    // TRIG pin - sends ultrasonic pulse
-const int echoPin = 19;    // ECHO pin - receives reflected pulse
+// GPIO pin configuration
+const int trigPin = 18;  // Trigger output
+const int echoPin = 19;  // Echo input
 ```
 
-### Detection Zone
-```cpp
-const float MIN_DISTANCE = 1.0;    // Minimum detection distance (cm)
-const float MAX_DISTANCE = 100.0;  // Maximum detection distance (cm)
-```
+**Best Practices:**
+- Use 5V-tolerant pins for ECHO
+- Avoid boot-mode pins (0, 2, 12, 15)
+- Keep wires short for reliability
+- Test with multimeter if issues occur
 
-### Advanced Settings
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### Advanced Configuration
+
+</div>
 
 <details>
-<summary><b>Measurement Interval</b></summary>
+<summary><b>📏 Detection Range Settings</b></summary>
 
-Located in `loop()` function:
 ```cpp
-delay(50);  // 50ms between measurements = 20 readings/second
+// Distance thresholds (in centimeters)
+const float MIN_DISTANCE = 1.0;    // Minimum measurable distance
+const float MAX_DISTANCE = 100.0;  // Maximum detection range
+
+// Example: Detect objects 10-50cm away
+const float MIN_DISTANCE = 10.0;
+const float MAX_DISTANCE = 50.0;
 ```
-- Lower values = faster updates, more CPU usage
-- Recommended range: 20-200ms
+
+**Considerations:**
+- HC-SR04 reliable range: 2-400 cm
+- Shorter ranges = more accurate
+- Longer ranges may have errors on small objects
 
 </details>
 
 <details>
-<summary><b>Web Update Rate</b></summary>
+<summary><b>⏱️ Measurement Timing</b></summary>
 
-In the HTML JavaScript section:
-```javascript
-setInterval(updateDisplay, 200);  // Update UI every 200ms
+**Located in `loop()` function:**
+
+```cpp
+// Current: 50ms between measurements = 20 readings/second
+delay(50);
+
+// Options:
+delay(20);   // 50 Hz - Very fast, may cause instability
+delay(50);   // 20 Hz - Balanced (RECOMMENDED)
+delay(100);  // 10 Hz - Stable, slower updates
+delay(200);  // 5 Hz - Very stable, best for averaging
 ```
-- Must be ≥ measurement interval for best results
-- Lower values = smoother UI, more network traffic
+
+**Guidelines:**
+- Faster = more responsive, more CPU usage
+- Slower = more stable, better for filtering
+- Match web update rate for best experience
+
+</details>
+
+<details>
+<summary><b>🌐 Web Update Rate</b></summary>
+
+**In the HTML JavaScript section:**
+
+```javascript
+// Update display every 200ms
+setInterval(updateDisplay, 200);
+
+// Options:
+setInterval(updateDisplay, 100);   // Faster updates, more traffic
+setInterval(updateDisplay, 200);   // Balanced (RECOMMENDED)
+setInterval(updateDisplay, 500);   // Slower, reduced network load
+setInterval(updateDisplay, 1000);  // 1 second updates, minimal traffic
+```
+
+**Best Practice:**
+- Web update rate ≥ measurement interval
+- Consider network bandwidth
+- Mobile devices may benefit from slower rates
+
+</details>
+
+<details>
+<summary><b>🎨 Custom Thresholds (Web UI)</b></summary>
+
+**Modify JavaScript in HTML section:**
+
+```javascript
+// Current alert zones
+if (distance > 0 && distance < 10) {
+    status = "🚨 Too Close!";
+    statusClass = "alert";
+} else if (distance >= 10 && distance < 40) {
+    status = "⚠️ Warning Zone";
+    statusClass = "warning";
+} else if (distance >= 40) {
+    status = "✓ All Clear";
+    statusClass = "safe";
+}
+
+// Example: Custom zones for parking sensor
+if (distance > 0 && distance < 20) {
+    status = "🛑 STOP!";
+    statusClass = "alert";
+} else if (distance >= 20 && distance < 50) {
+    status = "⚠️ Slow Down";
+    statusClass = "warning";
+} else if (distance >= 50) {
+    status = "✅ Safe Distance";
+    statusClass = "safe";
+}
+```
 
 </details>
 
 ---
 
-## 🧠 How It Works
+## 🧠 System Architecture
 
-### System Architecture
+<div align="center">
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                     ESP32 System                        │
-│                                                         │
-│  ┌──────────────┐      ┌─────────────┐                  │
-│  │  HC-SR04     │      │   ESP32     │                  │
-│  │   Sensor     │─────▶│   Main      │                  │
-│  │              │      │   Loop      │                  │
-│  └──────────────┘      └──────┬──────┘                  │
-│                               │                         │
-│                               ▼                         │
-│                        ┌─────────────┐                  │
-│                        │ Web Server  │                  │
-│                        │  (Port 80)  │                  │
-│                        └──────┬──────┘                  │
-└────────────────────────────────┼────────────────────────┘
-                                │
-                   ┌────────────┴────────────┐
-                   │                          │
-              ┌────▼─────┐             ┌────▼─────┐
-              │    /     │             │   /data  │
-              │  (HTML)  │             │  (JSON)  │
-              └──────────┘             └──────────┘
-                   │                          │
-                   ▼                          ▼
-              ┌────────────────────────────────────┐
-              │        User's Browser              │
-              │    (Desktop/Mobile/Tablet)         │
-              └────────────────────────────────────┘
-```
+### Complete System Flow
 
-### Measurement Process
-
-1. **Trigger**: ESP32 sends a 10μs pulse to TRIG pin
-2. **Ultrasonic burst**: Sensor emits 8 pulses at 40kHz
-3. **Echo reception**: ECHO pin goes HIGH when pulse is sent, LOW when echo returns
-4. **Time calculation**: Duration = time between ECHO HIGH and LOW
-5. **Distance calculation**: `Distance = (Duration × 0.034) / 2` cm
-   - 0.034 = speed of sound (343 m/s = 0.034 cm/μs)
-   - Divide by 2 because sound travels to object and back
-
-### Data Flow
+</div>
 
 ```
-Sensor Reading → Distance Calculation → JSON API → Browser Fetch → UI Update
-     (50ms)            (instant)          (200ms)      (200ms)      (instant)
+┌──────────────────────────────────────────────────────────────────┐
+│                         ESP32 System Architecture                │
+│                                                                  │
+│  ┌──────────────┐      ┌─────────────┐      ┌─────────────────┐  │
+│  │  HC-SR04     │ GPIO │   ESP32     │ WiFi │  Web Browser    │  │
+│  │  Ultrasonic  │─────▶│   Core      │◀────▶│   (Client)      │  │
+│  │   Sensor     │      │             │      │                 │  │
+│  └──────────────┘      └──────┬──────┘      └─────────────────┘  │
+│                               │                                  │
+│                               ▼                                  │
+│                        ┌─────────────┐                           │
+│                        │ Web Server  │                           │
+│                        │  (Port 80)  │                           │
+│                        └──────┬──────┘                           │
+│                               │                                  │
+│                    ┌──────────┴──────────┐                       │
+│                    │                      │                      │
+│              ┌─────▼──────┐        ┌────▼─────┐                  │
+│              │     /      │        │   /data  │                  │
+│              │  (HTML UI) │        │  (JSON)  │                  │
+│              └────────────┘        └──────────┘                  │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+### Measurement Process (Time-of-Flight)
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+**Physical Process:**
+
+1. **Trigger Phase**
+   - ESP32 sends 10µs HIGH pulse to TRIG
+   - HC-SR04 prepares ultrasonic burst
+
+2. **Emission Phase**
+   - Sensor emits 8 pulses at 40 kHz
+   - Ultrasonic waves propagate through air
+
+3. **Reflection Phase**
+   - Waves hit object and reflect back
+   - Return to sensor's receiver
+
+4. **Detection Phase**
+   - ECHO pin goes HIGH when burst sent
+   - ECHO pin goes LOW when echo received
+   - Duration = time between HIGH and LOW
+
+5. **Calculation Phase**
+   - ESP32 measures pulse duration
+   - Applies distance formula
+
+</td>
+<td width="50%">
+
+**Mathematical Foundation:**
+
+```
+Speed of Sound in Air:
+  v = 343 m/s = 0.0343 cm/µs
+  (at 20°C, sea level)
+
+Time-of-Flight Formula:
+  Total Time = 2 × Distance / Speed
+  
+Distance Calculation:
+  Distance = (Time × Speed) / 2
+  Distance = (Duration × 0.0343) / 2
+  Distance = Duration × 0.01715
+
+Example:
+  Duration = 1000 µs
+  Distance = 1000 × 0.01715
+  Distance = 17.15 cm
+```
+
+**Why divide by 2?**
+- Sound travels **TO** object
+- Then **BACK** to sensor
+- Total = **round trip**
+- Distance is one-way only
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### Data Flow Timeline
+
+</div>
+
+```
+Sensor Reading → Distance Calc → Web Server → API Response → Browser → UI Update
+     (50ms)       (instant)       (minimal)      (10-50ms)    (instant)   (smooth)
+     
+     └──────────────────────────────────────────────────────────────┘
+                    Total latency: < 100ms
+```
+
+<div align="center">
+
+### Web Request Flow
+
+</div>
+
+```
+┌─────────────┐                    ┌──────────────┐
+│   Browser   │                    │   ESP32      │
+│   (Client)  │                    │ Web Server   │
+└──────┬──────┘                    └──────┬───────┘
+       │                                  │
+       │  GET /                           │
+       ├─────────────────────────────────▶│
+       │                                  │
+       │  Response: HTML + CSS + JS       │
+       │◀─────────────────────────────────┤
+       │                                  │
+       │  GET /data (every 200ms)         │
+       ├─────────────────────────────────▶│
+       │                                  │
+       │  Response: {"distance": 25.3}    │
+       │◀─────────────────────────────────┤
+       │                                  │
+       │  Update UI with new value        │
+       │                                  │
+       │  GET /data (continuous polling)  │
+       ├─────────────────────────────────▶│
+       │                                  │
 ```
 
 ---
 
 ## 📡 API Reference
 
-### Endpoints
+<div align="center">
 
-#### `GET /`
-Returns the main HTML interface.
+### REST API Endpoints
 
-**Response**: HTML page with embedded CSS and JavaScript
+</div>
+
+### `GET /`
+
+**Description:** Returns the main HTML interface with embedded CSS and JavaScript
+
+**Response Type:** `text/html`
+
+**Status Codes:**
+- `200 OK` - Page served successfully
+
+**Example:**
+```bash
+curl http://192.168.1.100/
+```
 
 ---
 
-#### `GET /data`
-Returns current sensor data in JSON format.
+### `GET /data`
 
-**Response Format**:
+**Description:** Returns current sensor data in JSON format
+
+**Response Type:** `application/json`
+
+**Response Format:**
 ```json
 {
   "distance": 25.3,
@@ -349,232 +1002,1058 @@ Returns current sensor data in JSON format.
 }
 ```
 
-**Fields**:
-- `distance` (float): Current distance in centimeters
-  - `0` if out of valid range or error
-  - Accurate to 1 decimal place
-- `trigger` (boolean): True if object detected in alert zone (1-100cm)
-  - Automatically resets to `false` after being read
+**Field Descriptions:**
 
-**Example Usage**:
+| Field | Type | Range | Description |
+|-------|------|-------|-------------|
+| `distance` | float | 0 - 400 | Current distance in centimeters |
+| `trigger` | boolean | true/false | Alert status (resets after read) |
+
+**Special Values:**
+- `distance: 0` - Out of range or measurement error
+- `distance: -1` - Sensor timeout (rare)
+- `trigger: true` - Object detected in alert zone (1-100cm)
+- `trigger: false` - No alert or already acknowledged
+
+**Status Codes:**
+- `200 OK` - Data retrieved successfully
+- `500 Internal Server Error` - Sensor malfunction
+
+---
+
+<div align="center">
+
+### Integration Examples
+
+</div>
 
 <details>
-<summary><b>JavaScript</b></summary>
+<summary><b>JavaScript (Browser/Node.js)</b></summary>
 
 ```javascript
-fetch('http://192.168.1.100/data')
-  .then(response => response.json())
-  .then(data => {
+// Simple fetch
+async function getDistance() {
+  try {
+    const response = await fetch('http://192.168.1.100/data');
+    const data = await response.json();
     console.log(`Distance: ${data.distance} cm`);
     console.log(`Alert: ${data.trigger}`);
-  });
+    return data;
+  } catch (error) {
+    console.error('Connection error:', error);
+  }
+}
+
+// Continuous monitoring
+setInterval(async () => {
+  const data = await getDistance();
+  if (data.trigger) {
+    alert('Object detected!');
+  }
+}, 200);
 ```
 
 </details>
 
 <details>
-<summary><b>Python</b></summary>
+<summary><b>Python (Requests)</b></summary>
 
 ```python
 import requests
+import time
 
-response = requests.get('http://192.168.1.100/data')
-data = response.json()
-print(f"Distance: {data['distance']} cm")
-print(f"Alert: {data['trigger']}")
+ESP32_IP = "http://192.168.1.100"
+
+def get_distance():
+    try:
+        response = requests.get(f"{ESP32_IP}/data", timeout=1)
+        data = response.json()
+        print(f"Distance: {data['distance']} cm")
+        print(f"Alert: {data['trigger']}")
+        return data
+    except requests.exceptions.RequestException as e:
+        print(f"Error: {e}")
+        return None
+
+# Continuous monitoring
+while True:
+    data = get_distance()
+    if data and data['trigger']:
+        print("⚠️ ALERT: Object detected!")
+    time.sleep(0.2)
 ```
 
 </details>
 
 <details>
-<summary><b>curl</b></summary>
+<summary><b>Arduino/ESP32 (HTTPClient)</b></summary>
+
+```cpp
+#include <WiFi.h>
+#include <HTTPClient.h>
+#include <ArduinoJson.h>
+
+void readDistance() {
+  HTTPClient http;
+  http.begin("http://192.168.1.100/data");
+  
+  int httpCode = http.GET();
+  if (httpCode == 200) {
+    String payload = http.getString();
+    
+    StaticJsonDocument<200> doc;
+    deserializeJson(doc, payload);
+    
+    float distance = doc["distance"];
+    bool trigger = doc["trigger"];
+    
+    Serial.printf("Distance: %.1f cm, Alert: %s\n", 
+                  distance, trigger ? "YES" : "NO");
+  }
+  http.end();
+}
+```
+
+</details>
+
+<details>
+<summary><b>Command Line (curl)</b></summary>
 
 ```bash
+# Simple request
 curl http://192.168.1.100/data
+
+# Pretty print JSON
+curl -s http://192.168.1.100/data | python -m json.tool
+
+# Continuous monitoring (Linux/Mac)
+watch -n 0.2 'curl -s http://192.168.1.100/data | python -m json.tool'
+
+# Save to file with timestamp
+while true; do
+  echo "$(date +%T): $(curl -s http://192.168.1.100/data)" >> distance_log.txt
+  sleep 0.2
+done
 ```
 
 </details>
 
 ---
 
-## 🔧 Troubleshooting
+## 🎨 Customization
 
-<details>
-<summary><b>ESP32 won't connect to WiFi</b></summary>
+<div align="center">
 
-**Symptoms**: Serial Monitor shows "FAILED" or timeout dots forever
+### Extension Ideas
 
-**Solutions**:
-- ✅ Double-check WiFi credentials (case-sensitive!)
-- ✅ Ensure you're using 2.4GHz WiFi (ESP32 doesn't support 5GHz)
-- ✅ Move ESP32 closer to router during setup
-- ✅ Check if your network has MAC address filtering
-- ✅ Try resetting ESP32 with BOOT button held down
+</div>
 
-</details>
+<table>
+<tr>
+<td width="50%">
 
-<details>
-<summary><b>Distance always shows 0 or --</b></summary>
+### 🔔 Add Notifications
 
-**Symptoms**: No valid readings, distance stuck at 0
-
-**Solutions**:
-- ✅ Verify wiring connections (especially TRIG and ECHO pins)
-- ✅ Check if sensor has 5V power (measure with multimeter)
-- ✅ Ensure no objects within 2cm of sensor
-- ✅ Test sensor on a flat surface facing open space
-- ✅ Try swapping TRIG and ECHO pins (in case of wiring confusion)
-
-</details>
-
-<details>
-<summary><b>Web page won't load</b></summary>
-
-**Symptoms**: Browser shows "Can't reach this page"
-
-**Solutions**:
-- ✅ Verify ESP32 is still connected to WiFi (check Serial Monitor)
-- ✅ Use the exact IP address from Serial Monitor
-- ✅ Ensure computer/phone is on the same WiFi network
-- ✅ Try accessing from a different device
-- ✅ Check firewall settings on your computer
-- ✅ Restart ESP32 and note new IP address
-
-</details>
-
-<details>
-<summary><b>Readings are unstable/jumping</b></summary>
-
-**Symptoms**: Distance values fluctuate wildly
-
-**Solutions**:
-- ✅ Mount sensor firmly (vibrations affect readings)
-- ✅ Avoid measuring highly reflective surfaces (mirrors, water)
-- ✅ Increase measurement delay: `delay(100);` in loop()
-- ✅ Ensure sensor points perpendicular to target surface
-- ✅ Check for electromagnetic interference from other devices
-- ✅ Add software filtering (moving average)
-
-</details>
-
-<details>
-<summary><b>Upload fails / Port not found</b></summary>
-
-**Symptoms**: Arduino IDE can't upload or find COM port
-
-**Solutions**:
-- ✅ Install ESP32 USB drivers (CP210x or CH340 depending on board)
-- ✅ Try different USB cable (some are power-only)
-- ✅ Try different USB port on computer
-- ✅ Hold BOOT button during upload
-- ✅ Check Device Manager (Windows) for USB Serial devices
-
-</details>
-
-### Debug Mode
-
-Add this to `loop()` for detailed debugging:
+**Email Alerts:**
 ```cpp
-Serial.print("Distance: ");
-Serial.print(currentDistance);
-Serial.print(" cm | Trigger: ");
-Serial.println(triggerDetected);
+#include <ESP_Mail_Client.h>
+
+void sendAlert(float distance) {
+  SMTPSession smtp;
+  ESP_Mail_Session session;
+  // Configure SMTP settings
+  // Send email when trigger detected
+}
+```
+
+**IFTTT Integration:**
+```cpp
+#include <HTTPClient.h>
+
+void triggerIFTTT() {
+  HTTPClient http;
+  String url = "https://maker.ifttt.com/trigger/";
+  url += "distance_alert/with/key/YOUR_KEY";
+  http.begin(url);
+  http.GET();
+}
+```
+
+</td>
+<td width="50%">
+
+### 📊 Data Logging
+
+**SD Card Storage:**
+```cpp
+#include <SD.h>
+
+void logDistance(float distance) {
+  File dataFile = SD.open("log.csv", FILE_APPEND);
+  if (dataFile) {
+    dataFile.print(millis());
+    dataFile.print(",");
+    dataFile.println(distance);
+    dataFile.close();
+  }
+}
+```
+
+**Cloud Upload:**
+```cpp
+// ThingSpeak, Firebase, or AWS IoT
+#include <ThingSpeak.h>
+
+void uploadToCloud(float distance) {
+  ThingSpeak.setField(1, distance);
+  ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
+}
+```
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>🖥️ Add Local Display (OLED)</b></summary>
+
+```cpp
+#include <Wire.h>
+#include <Adafruit_SSD1306.h>
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+
+void setup() {
+  // ... existing setup code ...
+  
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
+  display.clearDisplay();
+  display.setTextSize(2);
+  display.setTextColor(SSD1306_WHITE);
+}
+
+void loop() {
+  float distance = measureDistance(trigPin, echoPin);
+  
+  // Display on OLED
+  display.clearDisplay();
+  display.setCursor(0, 0);
+  display.print("Distance:");
+  display.setCursor(0, 25);
+  display.print(distance, 1);
+  display.print(" cm");
+  display.display();
+  
+  // ... existing loop code ...
+}
+```
+
+</details>
+
+<details>
+<summary><b>🔊 Add Audio Feedback</b></summary>
+
+```cpp
+// Buzzer on GPIO 25
+#define BUZZER_PIN 25
+
+void setup() {
+  // ... existing setup code ...
+  pinMode(BUZZER_PIN, OUTPUT);
+}
+
+void loop() {
+  float distance = measureDistance(trigPin, echoPin);
+  
+  // Beep faster as object gets closer
+  if (distance > 0 && distance < 30) {
+    int beepDelay = map(distance, 1, 30, 50, 500);
+    digitalWrite(BUZZER_PIN, HIGH);
+    delay(50);
+    digitalWrite(BUZZER_PIN, LOW);
+    delay(beepDelay);
+  }
+  
+  // ... existing loop code ...
+}
+```
+
+</details>
+
+<details>
+<summary><b>🤖 Multiple Sensors</b></summary>
+
+```cpp
+// Define multiple sensors
+const int trig1 = 18, echo1 = 19;  // Front sensor
+const int trig2 = 22, echo2 = 23;  // Rear sensor
+const int trig3 = 26, echo3 = 27;  // Side sensor
+
+float distances[3];
+
+void loop() {
+  distances[0] = measureDistance(trig1, echo1);
+  distances[1] = measureDistance(trig2, echo2);
+  distances[2] = measureDistance(trig3, echo3);
+  
+  // Update web server to return array
+  // Modify HTML to display all three readings
+}
+```
+
+</details>
+
+---
+
+## 🐛 Troubleshooting
+
+<div align="center">
+
+### Common Issues & Solutions
+
+</div>
+
+<details>
+<summary><b>❌ ESP32 Won't Connect to WiFi</b></summary>
+
+**Symptoms:**
+- Serial Monitor shows repeated dots: `Connecting to WiFi: YourNetwork.....`
+- Eventually shows "FAILED" or never connects
+- Web interface inaccessible
+
+**Solutions:**
+
+1. **Check WiFi Credentials**
+   ```cpp
+   // Verify these match EXACTLY (case-sensitive)
+   const char* ssid = "YourWiFiName";
+   const char* password = "YourPassword";
+   ```
+   - Remove any extra spaces
+   - Check for special characters
+   - Ensure quotes are correct
+
+2. **Verify 2.4GHz Network**
+   - ESP32 only supports 2.4GHz WiFi
+   - Check router settings
+   - Some routers separate 2.4GHz and 5GHz bands
+   - Connect to 2.4GHz specifically
+
+3. **Signal Strength**
+   - Move ESP32 closer to router
+   - Check for physical obstacles
+   - Avoid metal enclosures during testing
+
+4. **Router Settings**
+   - Check MAC address filtering (disable or add ESP32)
+   - Verify DHCP is enabled
+   - Check if network is WPA2 (not WEP or WPA3 only)
+   - Some enterprise networks won't work
+
+5. **Reset ESP32**
+   - Hold BOOT button while pressing RST
+   - Release RST, then release BOOT
+   - Re-upload sketch
+
+6. **Debug WiFi Status**
+   Add this to code:
+   ```cpp
+   Serial.println(WiFi.status());
+   // Status codes:
+   // 0 = WL_IDLE_STATUS
+   // 1 = WL_NO_SSID_AVAIL (network not found)
+   // 3 = WL_CONNECTED
+   // 4 = WL_CONNECT_FAILED (wrong password)
+   ```
+
+</details>
+
+<details>
+<summary><b>📏 Distance Always Shows 0 or Invalid</b></summary>
+
+**Symptoms:**
+- Web interface shows "0 cm" or "--"
+- Serial Monitor shows consistent 0 readings
+- No valid measurements
+
+**Solutions:**
+
+1. **Verify Wiring**
+   ```
+   HC-SR04    ESP32
+   VCC    →   5V (NOT 3.3V!)
+   TRIG   →   GPIO 18
+   ECHO   →   GPIO 19
+   GND    →   GND
+   ```
+   - Double-check each connection
+   - Ensure wires are firmly inserted
+   - Look for loose breadboard connections
+
+2. **Check Power Supply**
+   - Measure VCC with multimeter: should be 4.8-5.2V
+   - Try different USB cable (some are power-only)
+   - Try different USB port or power adapter
+   - Ensure ESP32 5V pin is actually outputting 5V
+
+3. **Test Sensor**
+   - Ensure clear line of sight (no obstructions)
+   - Hold flat object 20cm in front
+   - Test on Arduino UNO if available
+   - Sensor may be damaged if dropped
+
+4. **Pin Configuration**
+   ```cpp
+   // Verify these match your wiring
+   const int trigPin = 18;
+   const int echoPin = 19;
+   
+   // Try different pins if issues persist
+   const int trigPin = 22;
+   const int echoPin = 23;
+   ```
+
+5. **Measurement Environment**
+   - Avoid soft surfaces (foam, fabric) - they absorb sound
+   - Avoid angled surfaces - causes reflections away
+   - Test with flat, hard surface (cardboard, wall)
+   - Ensure sensor is horizontal and stable
+
+6. **Add Debug Output**
+   ```cpp
+   unsigned long duration = pulseIn(echoPin, HIGH, 30000);
+   Serial.print("Duration: ");
+   Serial.println(duration);
+   // Should be 200-23000 for valid readings
+   ```
+
+</details>
+
+<details>
+<summary><b>🌐 Web Page Won't Load</b></summary>
+
+**Symptoms:**
+- Browser shows "Can't reach this page"
+- Connection timeout
+- ERR_CONNECTION_REFUSED
+
+**Solutions:**
+
+1. **Verify IP Address**
+   - Check Serial Monitor for exact IP
+   - Should look like: `192.168.x.x` or `10.0.x.x`
+   - Try typing IP manually (no copy-paste errors)
+   - Use http:// prefix: `http://192.168.1.100`
+
+2. **Network Check**
+   - Ensure phone/computer on **same WiFi network**
+   - Disable VPN if active
+   - Disable cellular data on phone
+   - Check WiFi icon on device
+
+3. **ESP32 Status**
+   - Check if still connected (Serial Monitor)
+   - Look for crashes or reboot loops
+   - Press RST button to restart
+   - Re-check IP after restart (may change)
+
+4. **Firewall/Security**
+   - Temporarily disable firewall
+   - Check antivirus blocking
+   - Try from different device
+   - Use incognito/private browsing
+
+5. **Port 80 Issues**
+   - Check if another service uses port 80
+   - Try changing port:
+   ```cpp
+   WebServer server(8080);  // Use port 8080
+   // Access: http://192.168.1.100:8080
+   ```
+
+6. **DNS/Browser Cache**
+   - Try different browser
+   - Clear browser cache
+   - Use IP address (not hostname)
+
+</details>
+
+<details>
+<summary><b>📊 Readings Are Unstable/Jumping</b></summary>
+
+**Symptoms:**
+- Distance values fluctuate wildly
+- Readings jump 10+ cm randomly
+- Inconsistent measurements
+
+**Solutions:**
+
+1. **Physical Stability**
+   - Mount sensor rigidly (tape, hot glue, clamp)
+   - Avoid touching breadboard during operation
+   - Place on stable surface
+   - Vibrations affect accuracy
+
+2. **Measurement Surface**
+   - Use flat, perpendicular surface
+   - Avoid curved objects
+   - Don't measure at steep angles
+   - Sound-absorbing materials cause errors
+
+3. **Electrical Noise**
+   - Move away from motors/relays
+   - Separate sensor wires from power wires
+   - Add 0.1µF capacitor across VCC-GND
+   - Use shorter wires
+
+4. **Software Filtering**
+   Add moving average:
+   ```cpp
+   #define SAMPLES 5
+   float readings[SAMPLES];
+   int readIndex = 0;
+   
+   float getFilteredDistance() {
+     readings[readIndex] = measureDistance(trigPin, echoPin);
+     readIndex = (readIndex + 1) % SAMPLES;
+     
+     float sum = 0;
+     for (int i = 0; i < SAMPLES; i++) {
+       sum += readings[i];
+     }
+     return sum / SAMPLES;
+   }
+   ```
+
+5. **Increase Delay**
+   ```cpp
+   delay(100);  // Slower updates = more stable
+   ```
+
+6. **Ignore Invalid Readings**
+   ```cpp
+   float newDistance = measureDistance(trigPin, echoPin);
+   if (abs(newDistance - currentDistance) < 50) {
+     // Only update if change is reasonable
+     currentDistance = newDistance;
+   }
+   ```
+
+</details>
+
+<details>
+<summary><b>💾 Upload Fails / Port Not Found</b></summary>
+
+**Symptoms:**
+- Arduino IDE can't find COM port
+- Upload error messages
+- "Failed to connect" or timeout
+
+**Solutions:**
+
+1. **Install USB Drivers**
+   - **CP210x**: [Silicon Labs](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+   - **CH340**: [Manufacturer site](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
+   - Restart computer after installation
+   - Check Device Manager (Windows) / System Report (Mac)
+
+2. **USB Cable Quality**
+   - Try different USB cable (data-capable, not charge-only)
+   - Test with known-good cable
+   - Avoid USB hubs (connect directly to computer)
+   - Try different USB port
+
+3. **Driver Detection**
+   - Windows: Check Device Manager → Ports (COM & LPT)
+   - Mac: Terminal → `ls /dev/cu.*`
+   - Linux: Terminal → `ls /dev/ttyUSB*`
+
+4. **Boot Mode**
+   - Hold BOOT button on ESP32
+   - Click Upload in Arduino IDE
+   - Keep holding until "Connecting..." appears
+   - Release when upload starts
+
+5. **Board Selection**
+   ```
+   Tools → Board → ESP32 Arduino → ESP32 Dev Module
+   Tools → Upload Speed → 115200 (slower = more reliable)
+   ```
+
+6. **Linux Permissions**
+   ```bash
+   sudo usermod -a -G dialout $USER
+   sudo chmod 666 /dev/ttyUSB0
+   # Logout and login again
+   ```
+
+</details>
+
+<details>
+<summary><b>🔄 ESP32 Keeps Rebooting</b></summary>
+
+**Symptoms:**
+- Continuous boot loop
+- "Brownout detector" messages
+- Resets randomly
+
+**Solutions:**
+
+1. **Power Supply**
+   - Use quality USB cable
+   - Try 5V 2A power adapter instead of computer USB
+   - Check for loose connections
+   - Measure 5V pin: should be stable
+
+2. **Reduce Current Draw**
+   ```cpp
+   WiFi.setSleep(false);  // Disable WiFi power saving
+   setCpuFrequencyMhz(160);  // Reduce from 240MHz
+   ```
+
+3. **Disable Brownout Detector** (temporary):
+   - Uncomment in code:
+   ```cpp
+   // WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);
+   ```
+
+4. **Check for Short Circuits**
+   - Remove all connections
+   - Test bare ESP32
+   - Add components one by one
+
+</details>
+
+---
+
+## 📊 Technical Specifications
+
+<div align="center">
+
+### System Performance
+
+<table>
+  <tr>
+    <th colspan="3">ESP32 Specifications</th>
+  </tr>
+  <tr>
+    <th>Parameter</th>
+    <th>Value</th>
+    <th>Notes</th>
+  </tr>
+  <tr>
+    <td><b>Microcontroller</b></td>
+    <td>ESP32 (Dual-core)</td>
+    <td>Xtensa LX6, 240 MHz</td>
+  </tr>
+  <tr>
+    <td><b>Operating Voltage</b></td>
+    <td>3.3V (logic)</td>
+    <td>5V via USB/VIN</td>
+  </tr>
+  <tr>
+    <td><b>Current Consumption</b></td>
+    <td>80-260mA</td>
+    <td>Depends on WiFi activity</td>
+  </tr>
+  <tr>
+    <td><b>WiFi Standard</b></td>
+    <td>802.11 b/g/n</td>
+    <td>2.4 GHz only</td>
+  </tr>
+  <tr>
+    <td><b>WiFi Range</b></td>
+    <td>50-100m</td>
+    <td>Line of sight, outdoor</td>
+  </tr>
+  <tr>
+    <td><b>Flash Memory</b></td>
+    <td>4MB</td>
+    <td>Typical, varies by board</td>
+  </tr>
+  <tr>
+    <td><b>RAM</b></td>
+    <td>520KB</td>
+    <td>SRAM</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="3">HC-SR04 Sensor Specifications</th>
+  </tr>
+  <tr>
+    <th>Parameter</th>
+    <th>Value</th>
+    <th>Notes</th>
+  </tr>
+  <tr>
+    <td><b>Operating Voltage</b></td>
+    <td>5V DC</td>
+    <td>±0.5V tolerance</td>
+  </tr>
+  <tr>
+    <td><b>Operating Current</b></td>
+    <td>15mA</td>
+    <td>Typical</td>
+  </tr>
+  <tr>
+    <td><b>Measurement Range</b></td>
+    <td>2 - 400 cm</td>
+    <td>Effective: 10-300 cm</td>
+  </tr>
+  <tr>
+    <td><b>Accuracy</b></td>
+    <td>±3mm</td>
+    <td>Optimal conditions</td>
+  </tr>
+  <tr>
+    <td><b>Resolution</b></td>
+    <td>1cm</td>
+    <td>Limited by calculation</td>
+  </tr>
+  <tr>
+    <td><b>Beam Angle</b></td>
+    <td>15° cone</td>
+    <td>30° total spread</td>
+  </tr>
+  <tr>
+    <td><b>Ultrasonic Frequency</b></td>
+    <td>40 kHz</td>
+    <td>8 pulses per burst</td>
+  </tr>
+  <tr>
+    <td><b>Trigger Pulse</b></td>
+    <td>10µs</td>
+    <td>Minimum requirement</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="3">Software Performance</th>
+  </tr>
+  <tr>
+    <th>Parameter</th>
+    <th>Value</th>
+    <th>Configurable</th>
+  </tr>
+  <tr>
+    <td><b>Measurement Rate</b></td>
+    <td>20 Hz (50ms)</td>
+    <td>✅ Yes</td>
+  </tr>
+  <tr>
+    <td><b>Web Update Rate</b></td>
+    <td>5 Hz (200ms)</td>
+    <td>✅ Yes</td>
+  </tr>
+  <tr>
+    <td><b>Serial Baud Rate</b></td>
+    <td>115200</td>
+    <td>✅ Yes</td>
+  </tr>
+  <tr>
+    <td><b>Total System Latency</b></td>
+    <td><100ms</td>
+    <td>Sensor to UI</td>
+  </tr>
+  <tr>
+    <td><b>Web Server Response</b></td>
+    <td><50ms</td>
+    <td>API endpoint</td>
+  </tr>
+  <tr>
+    <td><b>Concurrent Connections</b></td>
+    <td>4-5</td>
+    <td>ESP32 limitation</td>
+  </tr>
+</table>
+
+### Environmental Conditions
+
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>Range</th>
+    <th>Impact</th>
+  </tr>
+  <tr>
+    <td><b>Operating Temperature</b></td>
+    <td>-10°C to 60°C</td>
+    <td>Affects speed of sound</td>
+  </tr>
+  <tr>
+    <td><b>Storage Temperature</b></td>
+    <td>-20°C to 70°C</td>
+    <td>Component limits</td>
+  </tr>
+  <tr>
+    <td><b>Humidity</b></td>
+    <td>10% - 90% RH</td>
+    <td>Non-condensing</td>
+  </tr>
+  <tr>
+    <td><b>Altitude</b></td>
+    <td>0 - 3000m</td>
+    <td>Minor accuracy impact</td>
+  </tr>
+</table>
+
+### Power Consumption Profile
+
+<table>
+  <tr>
+    <th>Mode</th>
+    <th>Current Draw</th>
+    <th>Duration</th>
+  </tr>
+  <tr>
+    <td>WiFi Active (Web Request)</td>
+    <td>160-260mA</td>
+    <td>Continuous</td>
+  </tr>
+  <tr>
+    <td>Sensor Measurement</td>
+    <td>+15mA</td>
+    <td>Per measurement</td>
+  </tr>
+  <tr>
+    <td>Idle (Connected)</td>
+    <td>80-100mA</td>
+    <td>Between requests</td>
+  </tr>
+  <tr>
+    <td><b>Average Total</b></td>
+    <td><b>~150mA</b></td>
+    <td><b>Typical operation</b></td>
+  </tr>
+</table>
+
+**Battery Life Estimates:**
+- 1000mAh battery: ~6-7 hours
+- 2000mAh battery: ~12-14 hours
+- 5000mAh power bank: ~30+ hours
+
+</div>
+
+---
+
+## 📂 Project Structure
+
+```
+esp32-distance-monitor/
+│
+├── 📄 esp32_webserver.ino           # Main Arduino sketch
+│   ├── WiFi configuration
+│   ├── Web server setup
+│   ├── Distance measurement function
+│   ├── HTML/CSS/JavaScript (embedded)
+│   └── API endpoints
+│
+├── 📁 docs/                          # Documentation
+│   ├── circuit_diagram.png          # Wiring schematic
+│   ├── web_interface.png            # UI screenshot
+│   └── api_examples.md              # Integration examples
+│
+├── 📁 examples/                      # Additional examples
+│   ├── multiple_sensors.ino         # Multi-sensor setup
+│   ├── with_oled.ino                # OLED display version
+│   └── data_logging.ino             # SD card logging
+│
+├── 📖 README.md                      # This file
+├── 📜 LICENSE                        # MIT License
+└── 📝 CHANGELOG.md                   # Version history
 ```
 
 ---
 
-## 🎨 Customization Ideas
+## 🔄 Version History
 
-### Change Alert Thresholds
-Modify the JavaScript in the HTML section:
-```javascript
-// Current thresholds
-if (distance > 10 && distance < 40) {
-  // Warning zone
-}
-// Change to your needs:
-if (distance > 20 && distance < 60) {
-  // Custom warning zone
-}
-```
+<div align="center">
 
-### Add More Sensors
-```cpp
-// Add second sensor
-const int trigPin2 = 22;
-const int echoPin2 = 23;
-float currentDistance2 = 0.0;
+<table>
+  <tr>
+    <th>Version</th>
+    <th>Date</th>
+    <th>Changes</th>
+  </tr>
+  <tr>
+    <td><b>v2.0</b><br><i>(Current)</i></td>
+    <td>Jan 2025</td>
+    <td>
+      ✅ Redesigned web interface with modern UI<br>
+      ✅ Added visual range bar indicator<br>
+      ✅ Improved connection status monitoring<br>
+      ✅ Enhanced mobile responsiveness<br>
+      ✅ Added pulsing animation for alerts<br>
+      ✅ Comprehensive documentation update
+    </td>
+  </tr>
+  <tr>
+    <td><b>v1.5</b></td>
+    <td>Dec 2024</td>
+    <td>
+      ✅ Added JSON API endpoint<br>
+      ✅ Improved error handling<br>
+      ✅ Fixed WiFi reconnection issues<br>
+      ✅ Added configurable thresholds
+    </td>
+  </tr>
+  <tr>
+    <td><b>v1.0</b></td>
+    <td>Nov 2024</td>
+    <td>
+      ✅ Initial release<br>
+      ✅ Basic web server functionality<br>
+      ✅ HC-SR04 sensor integration<br>
+      ✅ Simple HTML interface
+    </td>
+  </tr>
+</table>
 
-// Measure both in loop()
-currentDistance = measureDistance(trigPin, echoPin);
-currentDistance2 = measureDistance(trigPin2, echoPin2);
-```
-
-### Email/SMS Alerts
-Integrate with IFTTT, Twilio, or SMTP library to send notifications when objects detected
-
-### Data Logging
-Add SD card module to log distance measurements over time
-
-### OLED Display
-Add SSD1306 OLED display for standalone operation without phone
+</div>
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how you can help:
+<div align="center">
+
+**Contributions are welcome!** Help make this project better:
+
+</div>
 
 ### Ways to Contribute
-- 🐛 Report bugs
-- 💡 Suggest new features
-- 📝 Improve documentation
-- 🔧 Submit pull requests
 
-### Development Setup
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Make your changes
-4. Test thoroughly
-5. Commit: `git commit -m 'Add amazing feature'`
-6. Push: `git push origin feature/amazing-feature`
-7. Open a Pull Request
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/color/96/000000/bug.png" width="60" height="60" alt="Bug"/>
+      <br><b>Report Bugs</b>
+      <br>Found an issue?
+      <br><a href="https://github.com/your-username/esp32-distance-monitor/issues">Open an issue</a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/color/96/000000/idea.png" width="60" height="60" alt="Feature"/>
+      <br><b>Suggest Features</b>
+      <br>Have an idea?
+      <br><a href="https://github.com/your-username/esp32-distance-monitor/issues">Share it!</a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/color/96/000000/code.png" width="60" height="60" alt="Code"/>
+      <br><b>Submit Code</b>
+      <br>Write improvements?
+      <br><a href="https://github.com/your-username/esp32-distance-monitor/pulls">Send a PR</a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.icons8.com/color/96/000000/document.png" width="60" height="60" alt="Docs"/>
+      <br><b>Improve Docs</b>
+      <br>Better explanation?
+      <br><a href="https://github.com/your-username/esp32-distance-monitor/pulls">Update README</a>
+    </td>
+  </tr>
+</table>
 
-### Code Style
-- Use descriptive variable names
-- Comment complex logic
-- Follow existing formatting
-- Test on real hardware before submitting
+### Development Workflow
+
+1. **Fork** the repository
+2. **Clone** your fork:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/esp32-distance-monitor.git
+   cd esp32-distance-monitor
+   ```
+3. **Create** a feature branch:
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+4. **Make** your changes
+5. **Test** thoroughly on real hardware
+6. **Commit** with clear messages:
+   ```bash
+   git commit -m 'Add amazing feature: description'
+   ```
+7. **Push** to your fork:
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+8. **Open** a Pull Request
+
+### Code Style Guidelines
+
+- ✅ Use descriptive variable names
+- ✅ Comment complex logic
+- ✅ Follow existing formatting (2 spaces, K&R braces)
+- ✅ Test on real ESP32 hardware
+- ✅ Update documentation for new features
+- ✅ Keep backwards compatibility when possible
 
 ---
 
 ## 📚 Additional Resources
 
+<div align="center">
+
 ### Learn More
-- [ESP32 Official Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
-- [HC-SR04 Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
-- [Arduino ESP32 Reference](https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/)
 
-### Similar Projects
-- ESP32 Temperature Monitor
-- ESP32 Smart Home Controller
-- ESP32 Security System
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/96/000000/book.png" width="60" height="60" alt="Documentation"/>
+      <br><b>Official Documentation</b>
+      <br><a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/">ESP32 Docs</a>
+      <br><a href="https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/">Arduino-ESP32</a>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/96/000000/pdf.png" width="60" height="60" alt="Datasheet"/>
+      <br><b>Datasheets</b>
+      <br><a href="https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf">HC-SR04 Sensor</a>
+      <br><a href="https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf">ESP32 Chip</a>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/96/000000/group.png" width="60" height="60" alt="Community"/>
+      <br><b>Community</b>
+      <br><a href="https://www.esp32.com/">ESP32 Forum</a>
+      <br><a href="https://reddit.com/r/esp32">r/esp32</a>
+    </td>
+  </tr>
+</table>
 
-### Community
-- [ESP32 Forum](https://www.esp32.com/)
-- [Arduino Forum - ESP32](https://forum.arduino.cc/c/hardware/esp32/179)
-- [r/esp32](https://reddit.com/r/esp32)
+### Related Projects
+
+- [ESP32 Temperature Monitor](https://github.com/example/temp-monitor)
+- [ESP32 Smart Home Hub](https://github.com/example/smart-home)
+- [ESP32 Security System](https://github.com/example/security)
+
+### Tutorials & Guides
+
+- [Getting Started with ESP32](https://randomnerdtutorials.com/getting-started-with-esp32/)
+- [ESP32 Web Server Tutorial](https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/)
+- [HC-SR04 Complete Guide](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)
+
+</div>
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see below for details:
+<div align="center">
+
+This project is licensed under the **MIT License**
+
+Free to use, modify, and distribute with attribution
+
+</div>
+
+<details>
+<summary><b>Click to view full license</b></summary>
 
 ```
 MIT License
 
-Copyright (c) 2025 ESP32 Distance Monitor Project
+Copyright (c) 2025 Aryan Ranjan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -595,36 +2074,169 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+</details>
+
 ---
 
 ## 🙏 Acknowledgments
 
-- ESP32 community for excellent documentation
-- Arduino team for the versatile IDE
-- Contributors and testers who helped improve this project
+<div align="center">
+
+Special thanks to:
+
+- 🌐 **Espressif Systems** for the amazing ESP32 platform
+- 📖 **Arduino Community** for comprehensive libraries
+- 🔧 **Makers & Hackers** who share their knowledge
+- 🐛 **Contributors** who help improve this project
+- 👥 **You** for using and supporting this project!
+
+</div>
 
 ---
 
-##  Support
+## 👨‍💻 Author
 
-Having issues? Here's how to get help:
+<div align="center">
 
-1. **Check the [Troubleshooting](#-troubleshooting) section** above
-2. **Search existing issues** on GitHub
-3. **Create a new issue** with:
-   - ESP32 board model
-   - Arduino IDE version
-   - Complete error messages
-   - Serial Monitor output
-   - Photos of your wiring (if hardware issue)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=22C55E&center=true&vCenter=true&width=435&lines=Created+by+Aryan+Ranjan;IoT+%26+Embedded+Systems;ML+Developer;Open+Source+Enthusiast" alt="Author Typing SVG" />
+
+<br>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/aryan-r03">
+        <img src="https://img.shields.io/badge/GitHub-aryan--r03-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://linkedin.com/in/aryan-ranjan03">
+        <img src="https://img.shields.io/badge/LinkedIn-aryan--ranjan03-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="mailto:aryanr.ranjan@gmail.com">
+        <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://instagram.com/__aryan_.r03">
+        <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+**🎓 Computer Applications in AI & ML**
+<br>
+**Building innovative IoT and embedded systems solutions**
+
+</div>
+
+---
+
+## 📞 Support & Contact
+
+<div align="center">
+
+### Need Help?
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/aryan-r03/esp32-distance-monitor/issues">
+        <img src="https://img.icons8.com/fluency/96/bug.png" width="60" height="60" alt="Issues"/>
+        <br><b>Report an Issue</b>
+      </a>
+      <br>Bug reports & feature requests
+    </td>
+    <td align="center" width="33%">
+      <a href="mailto:aryanr.ranjan@gmail.com">
+        <img src="https://img.icons8.com/fluency/96/help.png" width="60" height="60" alt="Support"/>
+        <br><b>Contact Support</b>
+      </a>
+      <br>Private queries
+    </td>
+    <td align="center" width="33%">
+      <a href="#documentation">
+        <img src="https://img.icons8.com/fluency/96/book.png" width="60" height="60" alt="Docs"/>
+        <br><b>Documentation</b>
+      </a>
+      <br>Setup & usage
+    </td>
+  </tr>
+</table>
+
+<br>
+
+
+**When Reporting Issues, Please Include:**
+- ESP32 board model and variant
+- Arduino IDE version
+- Complete error messages from Serial Monitor
+- Photos of your wiring (if hardware-related)
+- Steps to reproduce the problem
+
+</div>
 
 ---
 
 <div align="center">
 
-### ⭐ Star this repo if you found it helpful!
+## 🌟 Show Your Support
+
+**If this project helped you, please consider:**
+
+<a href="https://github.com/aryan-r03/esp32-distance-monitor">
+  <img src="https://img.shields.io/github/stars/aryan-r03/esp32-distance-monitor?style=social" alt="GitHub stars"/>
+</a>
+<a href="https://github.com/aryan-r03/esp32-distance-monitor/fork">
+  <img src="https://img.shields.io/github/forks/aryan-r03/esp32-distance-monitor?style=social" alt="GitHub forks"/>
+</a>
+<a href="https://github.com/aryan-r03/esp32-distance-monitor/watchers">
+  <img src="https://img.shields.io/github/watchers/aryan-r03/esp32-distance-monitor?style=social" alt="GitHub watchers"/>
+</a>
+
+<br><br>
+
+**⭐ Star this repository if you found it helpful!**
+
+**🍴 Fork it to build your own IoT projects!**
+
+**📢 Share it with the maker community!**
 
 
-[Back to Top ↑](#-esp32-distance-monitor-web-server)
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer"/>
+
+<br>
+
+<i>🚀 "The best way to predict the future is to build it." - Alan Kay</i>
+
+<br><br>
+
+**Made with ESP32** by [Aryan Ranjan](https://github.com/aryan-r03)
+
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=aryan-r03&label=Project%20Views&color=0e75b6&style=flat)
+
+<br>
+
+---
+
+**© 2025 Aryan Ranjan | IoT & Embedded Systems | MIT License**
+
+<br>
+
+[⬆ Back to Top](#)
 
 </div>
