@@ -2233,10 +2233,10 @@ Special thanks to:
 
 ---
 
-**© 2025 Aryan Ranjan | IoT & Embedded Systems | MIT License**
+**© 2025 Aryan Ranjan | IoT & Embedded Systems **
 
 <br>
 
-[⬆ Back to Top](#)
+
 
 </div>
