@@ -2191,14 +2191,15 @@ Special thanks to:
 **If this project helped you, please consider:**
 
 <a href="https://github.com/aryan-r03/ESP-32-Distance-Monitor-WebServer">
-  <img src="https://img.shields.io/github/stars/aryan-r03/ESP-32-Distance-Monitor-WebServerstyle=social" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/stars/aryan-r03/ESP-32-Distance-Monitor-WebServer?style=social" alt="GitHub stars"/>
 </a>
 <a href="https://github.com/aryan-r03/ESP-32-Distance-Monitor-WebServer/fork">
-  <img src="https://img.shields.io/github/forks/aryan-r03/ESP-32-Distance-Monitor-WebServerstyle=social" alt="GitHub forks"/>
+  <img src="https://img.shields.io/github/forks/aryan-r03/ESP-32-Distance-Monitor-WebServer?style=social" alt="GitHub forks"/>
 </a>
 <a href="https://github.com/aryan-r03/ESP-32-Distance-Monitor-WebServer/watchers">
-  <img src="https://img.shields.io/github/watchers/aryan-r03/ESP-32-Distance-Monitor-WebServerstyle=social" alt="GitHub watchers"/>
+  <img src="https://img.shields.io/github/watchers/aryan-r03/ESP-32-Distance-Monitor-WebServer?style=social" alt="GitHub watchers"/>
 </a>
+
 
 <br><br>
 
